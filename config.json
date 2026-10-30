@@ -1,0 +1,41 @@
+{
+  "game_list": [
+    "cyberpunk2077.exe",
+    "cs2.exe",
+    "rdr2.exe",
+    "valorant.exe",
+    "gta5.exe",
+    "gta5_enhanced.exe",
+    "gta5_enhanced_be.exe",
+    "playgtav.exe",
+    "gtavlauncher.exe",
+    "fivem.exe",
+    "witcher3.exe",
+    "overwatch.exe",
+    "leagueoflegends.exe",
+    "fortniteclient-win64-shipping.exe",
+    "valorant-win64-shipping.exe",
+    "eldenring.exe",
+    "skyrim.exe"
+  ],
+  "thresholds": {
+    "cool_threshold": 80.0,
+    "balanced_threshold": 90.0,
+    "boost_reduction_threshold": 95.0,
+    "emergency_threshold": 95.0
+  },
+  "cpu_limits": {
+    "normal_cpu_limit": 100,
+    "boost_reduced_cpu_limit": 99,
+    "emergency_cpu_limit": 85
+  },
+  "hysteresis_seconds": 10,
+  "sensor_settings": {
+    "prefer_real_sensor": true,
+    "force_simulation": false
+  },
+  "controller_settings": {
+    "dry_run": false,
+    "enabled": true
+  }
+}
